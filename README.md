@@ -15,7 +15,7 @@
 ## Setup Instructions
 
 1. Clone the repository:
-   git clone <repository_url>
+   git clone https://github.com/swallow66/TodoistTests.git
         
 2. Install Appium and it's drivers
         npm install -g appium
