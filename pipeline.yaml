@@ -1,0 +1,20 @@
+parameters:
+  - name: "TestList"
+    displayName: "Tests to be executed"
+    type: "string"
+    default: "*"
+
+trigger:
+  branches:
+    include:
+      - "main"
+
+resources:
+  repositories:
+    - repository: TodoistTestsRepo
+      type: github
+      name: swallow66/TodoistTests
+
+steps:
+- checkout: TodoistTestsRepo
+  clean: true

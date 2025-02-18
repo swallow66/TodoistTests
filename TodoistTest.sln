@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoistTest", "TodoistTest.csproj", "{8EC9942D-E883-4CAD-8F50-07E2DEC3326E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoistTest", "TodoistTest.csproj", "{8EC9942D-E883-4CAD-8F50-07E2DEC3326E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{D8582A4E-5A4C-4427-8E5E-42BE3C3946FA}"
+	ProjectSection(SolutionItems) = preProject
+		pipeline.yaml = pipeline.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
