@@ -15,3 +15,7 @@ steps:
     inputs:
       targetType: 'inline'
       script: Write-Host "Test message"
+      
+  - task: Npm@1
+    inputs:
+      command: 'install -g appium' 
