@@ -23,7 +23,10 @@ steps:
     displayName: 'Install Node.js'
   
   - script: npm install -g appium
+    displayName: 'Install appium'
 
   - script: appium driver install uiautomator2
+    displayName: 'Install appium drivers'
+    
 
   
